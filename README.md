@@ -11,7 +11,7 @@ npm install --save @typed/stream
 
 ## API
 
-#### filterMaybe<A>(maybe$: Stream<Maybe<A>>): Stream<A>
+#### filterMaybe\<A\>(maybe$: Stream\<Maybe\<A\>\>): Stream\<A\>
 
 Filters out the `Nothing` values a stream of `Maybe`s and unwraps the
 values of all `Just`s.
@@ -21,7 +21,7 @@ maybe$:             ---N---J(1)---N---J(1)---->
 filterMaybe(maybe$):---------1----------1----->
 ```
 
-#### splitEither<A, B>(either$: Stream<Either<A, B>>): [ Stream<A>, Stream<B> ]
+#### splitEither\<A, B\>(either$: Stream\<Either\<A, B\>\>): [ Stream\<A\>, Stream\<B\> ]
 
 Splits the values contained in an `Either` and produces 1 stream for the `Left` 
 and 1 stream `Right` values.
