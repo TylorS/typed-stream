@@ -30,6 +30,13 @@
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/@most/prelude/-/prelude-1.6.4.tgz#254ab6e22c0d4e7cb19e6ec1c966b75f57317f25"
 
+"@most/scheduler@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@most/scheduler/-/scheduler-0.13.1.tgz#38b7cb13b81e16e3c3ef4964269d4aa9278e2e99"
+  dependencies:
+    "@most/prelude" "^1.6.4"
+    "@most/types" "^0.11.1"
+
 "@most/scheduler@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@most/scheduler/-/scheduler-0.13.0.tgz#d76f0713ed04df4c7c9250c16a9c966e89cd6248"
