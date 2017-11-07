@@ -13,7 +13,7 @@
   "devDependencies": {
     "@most/scheduler": "0.13.1",
     "@typed/test": "2.5.0",
-    "@types/node": "8.0.31",
+    "@types/node": "8.0.49",
     "husky": "0.14.3",
     "lint-staged": "4.2.3",
     "prettier": "1.7.3",
