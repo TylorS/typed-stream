@@ -20,7 +20,7 @@
     "typescript": "2.5.3"
   },
   "dependencies": {
-    "@most/core": "0.13.0",
+    "@most/core": "1.0.0",
     "@most/types": "0.11.1",
     "@typed/prelude": "4.0.0"
   },
