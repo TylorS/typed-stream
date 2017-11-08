@@ -1,7 +1,7 @@
 {
-  "name": "change-me",
-  "description": "change-me",
-  "repository": "https://github.com/TylorS/CHANGE_ME",
+  "name": "@typed/stream",
+  "description": "Typed-extensions to @most/core",
+  "repository": "https://github.com/TylorS/typed-stream",
   "version": "0.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,12 +11,12 @@
   "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@typed/list": "2.2.0",
+    "@typed/list": "2.3.0",
     "@typed/test": "4.0.0",
-    "@types/node": "8.0.47",
+    "@types/node": "8.0.50",
     "husky": "0.14.3",
     "lint-staged": "4.3.0",
-    "prettier": "1.7.4",
+    "prettier": "1.8.1",
     "typescript": "2.6.1"
   },
   "dependencies": {
