@@ -1,14 +1,8 @@
-import {
-  Either,
-  fromLeft,
-  fromRight,
-  isLeft,
-  isRight,
-  pipe,
-} from '@typed/prelude'
+import { Either, fromLeft, fromRight, isLeft, isRight } from '@typed/either'
 import { filter, map, multicast } from '@most/core'
 
 import { Stream } from '@most/types'
+import { pipe } from '@typed/functions'
 
 const toLeftValue: <A, B>(either$: Stream<Either<A, B>>) => Stream<A> = pipe(
   filter(isLeft),

@@ -1,9 +1,10 @@
-import { Either, range } from '@typed/prelude'
 import { Test, describe, given, it } from '@typed/test'
 import { at, mergeArray, runEffects, tap } from '@most/core'
 
+import { Either } from '@typed/either'
 import { Stream } from '@most/types'
 import { newDefaultScheduler } from '@most/scheduler'
+import { range } from '@typed/list'
 import { splitEither } from './splitEither'
 
 export const test: Test = describe(`splitEither`, [

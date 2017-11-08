@@ -1,4 +1,4 @@
-import { Maybe, Nothing } from '@typed/prelude'
+import { Maybe, Nothing } from '@typed/maybe'
 import { Scheduler, Stream } from '@most/types'
 import { Test, describe, given, it } from '@typed/test'
 import { at, mergeArray, runEffects, tap } from '@most/core'

@@ -11,18 +11,22 @@
   "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@most/scheduler": "^0.13.0",
-    "@typed/test": "2.5.0",
-    "@types/node": "8.0.31",
+    "@typed/list": "2.2.0",
+    "@typed/test": "4.0.0",
+    "@types/node": "8.0.47",
     "husky": "0.14.3",
-    "lint-staged": "4.2.3",
-    "prettier": "1.7.3",
-    "typescript": "2.5.3"
+    "lint-staged": "4.3.0",
+    "prettier": "1.7.4",
+    "typescript": "2.6.1"
   },
   "dependencies": {
-    "@most/core": "0.13.0",
-    "@most/types": "0.11.1",
-    "@typed/prelude": "4.0.0"
+    "@most/scheduler": "1.0.1",
+    "@most/core": "1.0.1",
+    "@most/types": "1.0.0",
+    "@typed/either": "3.3.0",
+    "@typed/functions": "2.3.0",
+    "@typed/future": "3.2.0",
+    "@typed/maybe": "6.0.0"
   },
   "lint-staged": {
     "*.ts": [
