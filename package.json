@@ -2,7 +2,7 @@
   "name": "@typed/stream",
   "description": "Typed-extensions to @most/core",
   "repository": "https://github.com/TylorS/typed-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
