@@ -39,6 +39,13 @@
     "@most/prelude" "^1.6.4"
     "@most/types" "^0.11.1"
 
+"@most/disposable@1.0.0-beta.1":
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@most/disposable/-/disposable-1.0.0-beta.1.tgz#15896fcba145b47e3e8e481e6e58828343dab258"
+  dependencies:
+    "@most/prelude" "^1.6.4"
+    "@most/types" "^1.0.0-beta.1"
+
 "@most/disposable@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@most/disposable/-/disposable-1.0.0.tgz#3d88ab1617ed09e3c9a8503bc9ad01196319bc18"
@@ -68,7 +75,7 @@
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@most/types/-/types-0.11.1.tgz#5e305e0e346c5b01f1ebdeec4c1dfa5b189b5f9d"
 
-"@most/types@1.0.0", "@most/types@^1.0.0":
+"@most/types@1.0.0", "@most/types@^1.0.0", "@most/types@^1.0.0-beta.1":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@most/types/-/types-1.0.0.tgz#5c301d2437342a1b82e38463fdb94e1bafe2c6d9"
 
@@ -83,13 +90,6 @@
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@typed/core/-/core-2.1.0.tgz#9c0c303bbe83a9979464bd41d8e5e49073cde323"
 
-"@typed/either@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/either/-/either-3.2.0.tgz#567768db8f2a5ec362fd21773007e986e765eb9b"
-  dependencies:
-    "@typed/core" "2.1.0"
-    "@typed/functions" "2.2.0"
-
 "@typed/either@3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@typed/either/-/either-3.3.0.tgz#070b7ed06b26637e9dd1e96f557120d647f4f3c4"
@@ -97,56 +97,45 @@
     "@typed/core" "2.1.0"
     "@typed/functions" "2.3.0"
 
-"@typed/functions@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/functions/-/functions-2.2.0.tgz#7831c8f2c41a51695b0a119ee26ceb0516bc6734"
-  dependencies:
-    "@typed/core" "2.1.0"
-
 "@typed/functions@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@typed/functions/-/functions-2.3.0.tgz#bca73405c5d320af87a1a405a5ef2643c7c3dd56"
   dependencies:
     "@typed/core" "2.1.0"
 
-"@typed/future@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/future/-/future-3.2.0.tgz#ce4a36f9158cc93be9a08771a7717734b51547b6"
+"@typed/future@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@typed/future/-/future-4.0.0.tgz#0a03433e5e39b05dad9f3fe180542b87a08ba91d"
+  dependencies:
+    "@most/disposable" "1.0.0-beta.1"
+    "@most/types" "1.0.0"
+    "@typed/functions" "2.3.0"
+    "@typed/list" "2.3.0"
+
+"@typed/lenses@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@typed/lenses/-/lenses-2.3.0.tgz#cd9161e988c2f0cc48a47916ee523cc4d29ad2a7"
+  dependencies:
+    "@typed/functions" "2.3.0"
+    "@typed/maybe" "6.0.0"
+
+"@typed/list@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@typed/list/-/list-2.3.0.tgz#64a3f6073c3f143e307e9e914ea2f25d3307b4b6"
   dependencies:
     "@typed/core" "2.1.0"
-    "@typed/functions" "2.2.0"
+    "@typed/functions" "2.3.0"
+    "@typed/lenses" "2.3.0"
+    "@typed/logic" "2.3.0"
+    "@typed/maybe" "6.0.0"
 
-"@typed/lenses@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/lenses/-/lenses-2.2.0.tgz#0d6a9ec97d956f4dd797a9686f7b4bdb569b6af1"
+"@typed/logic@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@typed/logic/-/logic-2.3.0.tgz#989a213440036f93e8f2944ececa1b616b21ec46"
   dependencies:
-    "@typed/functions" "2.2.0"
-    "@typed/maybe" "5.0.0"
-
-"@typed/list@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/list/-/list-2.2.0.tgz#683f389c53808881b477184264b247a869f83bb7"
-  dependencies:
-    "@typed/core" "2.1.0"
-    "@typed/functions" "2.2.0"
-    "@typed/lenses" "2.2.0"
-    "@typed/logic" "2.2.0"
-    "@typed/maybe" "5.0.0"
-
-"@typed/logic@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@typed/logic/-/logic-2.2.0.tgz#10f87e1bbab32ff34d15fbb4ed23947c442bae1b"
-  dependencies:
-    "@typed/either" "3.2.0"
-    "@typed/functions" "2.2.0"
-    "@typed/maybe" "5.0.0"
-
-"@typed/maybe@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@typed/maybe/-/maybe-5.0.0.tgz#381e6801d41ff63a7c1c4e6c5a9c7f7a50e93840"
-  dependencies:
-    "@typed/core" "2.1.0"
-    "@typed/functions" "2.2.0"
+    "@typed/either" "3.3.0"
+    "@typed/functions" "2.3.0"
+    "@typed/maybe" "6.0.0"
 
 "@typed/maybe@6.0.0":
   version "6.0.0"
@@ -183,9 +172,9 @@
     webpack-merge "4.1.0"
     yargs "9.0.1"
 
-"@types/node@8.0.47":
-  version "8.0.47"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.47.tgz#968e596f91acd59069054558a00708c445ca30c2"
+"@types/node@8.0.50":
+  version "8.0.50"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.50.tgz#dc545448e128c88c4eec7cd64025fcc3b7604541"
 
 abbrev@1:
   version "1.1.1"
@@ -2420,9 +2409,9 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@1.7.4:
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.7.4.tgz#5e8624ae9363c80f95ec644584ecdf55d74f93fa"
+prettier@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.8.1.tgz#91064d778c08c85ac1cbe6b23195c34310d039f9"
 
 pretty-error@^2.0.2:
   version "2.1.1"

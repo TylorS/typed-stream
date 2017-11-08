@@ -1,4 +1,4 @@
-import { Disposable, Scheduler, Sink, Stream, Time } from '@most/types'
+import { Disposable, Scheduler, Sink, Stream } from '@most/types'
 
 import { Either } from '@typed/either'
 import { Future } from '@typed/future'
@@ -27,12 +27,4 @@ class FromFuture<A, B> implements Stream<Either<A, B>> {
       }
     )
   }
-}
-
-function forkFuture<A, B>(scheduler: Scheduler) {
-  return function(
-    _: Time,
-    future: Future<A, B>,
-    sink: Sink<Either<A, B>>
-  ): void {}
 }
