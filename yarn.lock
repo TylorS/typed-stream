@@ -41,11 +41,22 @@
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/@most/prelude/-/prelude-1.6.4.tgz#254ab6e22c0d4e7cb19e6ec1c966b75f57317f25"
 
+"@most/prelude@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@most/prelude/-/prelude-1.7.0.tgz#0956ed464ad03e7fc95143eac0c6dd028498d975"
+
 "@most/scheduler@1.0.1", "@most/scheduler@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@most/scheduler/-/scheduler-1.0.1.tgz#aaa6611c0989c83103148a8c2cd7e090fd9a68dc"
   dependencies:
     "@most/prelude" "^1.6.4"
+    "@most/types" "^1.0.0"
+
+"@most/scheduler@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@most/scheduler/-/scheduler-1.1.0.tgz#36d6bf8d166a637c7c16eeb4fbe6946302b7a8c9"
+  dependencies:
+    "@most/prelude" "^1.7.0"
     "@most/types" "^1.0.0"
 
 "@most/types@1.0.0", "@most/types@^1.0.0", "@most/types@^1.0.0-beta.1":
