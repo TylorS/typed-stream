@@ -19,7 +19,7 @@
     "nyc": "11.3.0",
     "prettier": "1.8.1",
     "typescript": "2.6.1",
-    "webpack-node-externals": "1.6.0"
+    "webpack-node-externals": "1.7.2"
   },
   "dependencies": {
     "@most/core": "1.0.1",
