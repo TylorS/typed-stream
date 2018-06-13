@@ -18,7 +18,7 @@
     "lint-staged": "4.3.0",
     "nyc": "11.3.0",
     "prettier": "1.8.1",
-    "typescript": "2.6.1",
+    "typescript": "2.9.2",
     "webpack-node-externals": "1.6.0"
   },
   "dependencies": {
