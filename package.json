@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@typed/list": "2.3.0",
-    "@typed/test": "5.0.0",
+    "@typed/test": "7.0.9",
     "@types/node": "8.0.50",
     "husky": "0.14.3",
     "lint-staged": "4.3.0",
