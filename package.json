@@ -14,7 +14,7 @@
     "@typed/list": "2.3.0",
     "@typed/test": "5.0.0",
     "@types/node": "8.0.50",
-    "husky": "0.14.3",
+    "husky": "2.4.1",
     "lint-staged": "4.3.0",
     "nyc": "11.3.0",
     "prettier": "1.8.1",
