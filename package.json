@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@most/core": "1.0.1",
-    "@most/scheduler": "1.0.1",
+    "@most/scheduler": "1.2.3",
     "@most/types": "1.0.0",
     "@typed/either": "3.3.0",
     "@typed/functions": "2.3.0",
