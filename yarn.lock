@@ -52,6 +52,10 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@most/types/-/types-1.0.0.tgz#5c301d2437342a1b82e38463fdb94e1bafe2c6d9"
 
+"@most/types@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@most/types/-/types-1.0.2.tgz#a272c919a3dafe942bd02d63402f0548593af870"
+
 "@typed/assertions@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@typed/assertions/-/assertions-1.1.0.tgz#6428276e542b213356b82da3152ee4dd5d7ec22c"
