@@ -22,7 +22,7 @@
     "webpack-node-externals": "1.6.0"
   },
   "dependencies": {
-    "@most/core": "1.0.1",
+    "@most/core": "1.5.0",
     "@most/scheduler": "1.0.1",
     "@most/types": "1.0.0",
     "@typed/either": "3.3.0",
