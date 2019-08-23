@@ -28,7 +28,7 @@
     "@typed/either": "3.3.0",
     "@typed/functions": "2.3.0",
     "@typed/future": "4.0.0",
-    "@typed/maybe": "6.0.0"
+    "@typed/maybe": "8.0.4"
   },
   "lint-staged": {
     "*.ts": [
