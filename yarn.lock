@@ -59,6 +59,10 @@
     "167" "0.36.0"
     assertion-error-diff "^1.0.0"
 
+"@typed/common@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@typed/common/-/common-1.0.3.tgz#f3e162c336abd63709cc2ea0333e58f540b9d8d1"
+
 "@typed/core@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@typed/core/-/core-2.1.0.tgz#9c0c303bbe83a9979464bd41d8e5e49073cde323"
@@ -84,6 +88,12 @@
     "@most/types" "1.0.0"
     "@typed/functions" "2.3.0"
     "@typed/list" "2.3.0"
+
+"@typed/lambda@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/lambda/-/lambda-1.0.4.tgz#6bbd6800f5b78630a35102b96ad306346e9c16d0"
+  dependencies:
+    "@typed/common" "^1.0.3"
 
 "@typed/lenses@2.3.0":
   version "2.3.0"
@@ -116,6 +126,12 @@
   dependencies:
     "@typed/core" "2.1.0"
     "@typed/functions" "2.3.0"
+
+"@typed/maybe@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/maybe/-/maybe-8.0.4.tgz#a09abc1cbd4224878911522d7f3d3681434f15d6"
+  dependencies:
+    "@typed/lambda" "^1.0.4"
 
 "@typed/test@5.0.0":
   version "5.0.0"
