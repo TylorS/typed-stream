@@ -59,6 +59,10 @@
     "167" "0.36.0"
     assertion-error-diff "^1.0.0"
 
+"@typed/common@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@typed/common/-/common-1.0.3.tgz#f3e162c336abd63709cc2ea0333e58f540b9d8d1"
+
 "@typed/core@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@typed/core/-/core-2.1.0.tgz#9c0c303bbe83a9979464bd41d8e5e49073cde323"
@@ -85,6 +89,12 @@
     "@typed/functions" "2.3.0"
     "@typed/list" "2.3.0"
 
+"@typed/lambda@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/lambda/-/lambda-1.0.4.tgz#6bbd6800f5b78630a35102b96ad306346e9c16d0"
+  dependencies:
+    "@typed/common" "^1.0.3"
+
 "@typed/lenses@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@typed/lenses/-/lenses-2.3.0.tgz#cd9161e988c2f0cc48a47916ee523cc4d29ad2a7"
@@ -102,6 +112,17 @@
     "@typed/logic" "2.3.0"
     "@typed/maybe" "6.0.0"
 
+"@typed/list@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/list/-/list-4.0.4.tgz#b92c1328ec3738ec0c75034911d5a5767f3af93f"
+  dependencies:
+    "@typed/common" "^1.0.3"
+    "@typed/lambda" "^1.0.4"
+    "@typed/logic" "^4.0.4"
+    "@typed/math" "^4.0.4"
+    "@typed/maybe" "^8.0.4"
+    "@typed/tuple" "^1.0.4"
+
 "@typed/logic@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@typed/logic/-/logic-2.3.0.tgz#989a213440036f93e8f2944ececa1b616b21ec46"
@@ -110,12 +131,33 @@
     "@typed/functions" "2.3.0"
     "@typed/maybe" "6.0.0"
 
+"@typed/logic@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/logic/-/logic-4.0.4.tgz#03e0402db0a2f78e243ae54c31ab4633855104a9"
+  dependencies:
+    "@typed/common" "^1.0.3"
+    "@typed/lambda" "^1.0.4"
+    "@typed/maybe" "^8.0.4"
+
+"@typed/math@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/math/-/math-4.0.4.tgz#5c0b2d95875376338e5c08f35018439f63158c36"
+  dependencies:
+    "@typed/lambda" "^1.0.4"
+    "@typed/maybe" "^8.0.4"
+
 "@typed/maybe@6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@typed/maybe/-/maybe-6.0.0.tgz#47a9c4bed6f488e885f67accaea2ca0b60e498db"
   dependencies:
     "@typed/core" "2.1.0"
     "@typed/functions" "2.3.0"
+
+"@typed/maybe@^8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/maybe/-/maybe-8.0.4.tgz#a09abc1cbd4224878911522d7f3d3681434f15d6"
+  dependencies:
+    "@typed/lambda" "^1.0.4"
 
 "@typed/test@5.0.0":
   version "5.0.0"
@@ -144,6 +186,12 @@
     webpack "3.8.1"
     webpack-merge "4.1.1"
     yargs "10.0.3"
+
+"@typed/tuple@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@typed/tuple/-/tuple-1.0.4.tgz#1e117c3fdf70bfb5d3f34390dc1e9119beb7d30e"
+  dependencies:
+    "@typed/lambda" "^1.0.4"
 
 "@types/node@8.0.50":
   version "8.0.50"

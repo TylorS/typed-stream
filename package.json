@@ -11,7 +11,7 @@
   "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@typed/list": "2.3.0",
+    "@typed/list": "4.0.4",
     "@typed/test": "5.0.0",
     "@types/node": "8.0.50",
     "husky": "0.14.3",
